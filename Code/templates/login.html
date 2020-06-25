@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Ancient Text Translator</title>
+    <style> 
+        input[type=text] {
+          width: 40%;
+          padding: 20px 20px;
+          margin: 0px 20px 20px 80px;
+          box-sizing: border-box;
+        }
+		img {
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			}
+
+hr{
+  color:white;
+}
+body {
+  background-image: url('b.png');
+  background-size: cover;
+  background-opacity: 0.1;
+}
+</style>
+        
+        </head>
+  <body >     
+         <div>
+ <h1> <h1 style="font-family:verdana; font-size:70px; color: grey" ><center>ANCIENT TEXT TRANSLATOR</center>
+    </h1></h1>
+	<p>
+	
+	</p>
+		</div>
+     <img src="lang.jpeg" alt="Languages of the world" width="460" height="345">
+    <hr style="color: black;">
+	<h4 style="font-family:comic sans; font-size:35px; color: #0C62DE" ><center><strong>Welcome<strong></h4>
+	<p style="font-family:comic sans; font-size:25px; color: #FF0000"><center>Platform pikeun narjamahkeun téks kuno</p>
+	
+    <!--<label for="lang">
+    <h2 style ="align=left; color: #083e8f; font-size:30px; font-family: sans-serif;" >Select language from Dropdown</h2></label>
+    <select id="lang">
+      <option value="sundanese">English to Sundanese</option>
+      <option value="other">Other Languages coming soon</option>
+    </select>
+	--->
+    <form action = "http://localhost:5000/login" method = "post">
+      <p color="red">Enter the Sentence in Sundanese:</p>
+	  
+      <p><input type = "text" list="text" name = "nm" />
+	  
+		<datalist id="text">
+			<option value="naon anu tiasa abdi lakukeun pikeun anjeun ">
+			<option value="kuring langkung resep cicing di bumi tinimbang kaluar">
+			<option value="dupi anjeun atos">
+			<option value="abdi kedah ngadamel keluhan ngeunaan">
+			<option value="abdi henteu tiasa muka panto">
+		</datalist> 
+      <p><input type = "submit" value = "CONVERT" /></p>
+   </form>
+   </body>
+</html>
